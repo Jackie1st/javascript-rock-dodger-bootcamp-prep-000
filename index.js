@@ -127,7 +127,7 @@ clearInterval(gameInterval)
 while (ROCKS.length > 0) {
   ROCKS.pop();
 }
-document.removeEventListener('keydown', moveDodger)
+window.removeEventListener('keydown', moveDodger)
 alert('YOU LOSE!')
 }
 
